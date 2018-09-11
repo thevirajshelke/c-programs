@@ -25,14 +25,17 @@ int main(){
     return 0;
 }
 */
-int main(){
+int main()
+{
     int a, b, c;
     printf("Enter two numbers:\n");
-    scanf("%d%d",&a,&b);
- if(b==0){
+    scanf("%d%d", &a, &b);
+    if (b == 0)
+    {
         printf("Division by zero is Not Defined!\n");
     }
-    else{
+    else
+    {
         printf("The division of %d & %d is %d\n", a, b, a / b);
     }
     return 0;

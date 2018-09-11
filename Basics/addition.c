@@ -20,10 +20,11 @@ int main(){
     return 0;
 }
 */
-int main(){
+int main()
+{
     int a, b, c;
     printf("Enter two numbers:\n");
-    scanf("%d%d",&a,&b);
+    scanf("%d%d", &a, &b);
     printf("The addition of %d & %d is %d\n", a, b, a + b);
     return 0;
 }
