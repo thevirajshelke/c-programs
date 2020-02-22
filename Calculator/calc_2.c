@@ -1,3 +1,10 @@
+/**************************************************
+ * File: c-programs/Calculator/calc_2.c
+ * Name: Viraj Shelke <virajshelkepro@gmail.com>
+ * Date: 2020-17-02
+ * Desc: Calculator program with switch case.
+***************************************************/
+
 #include <stdio.h>
 int main()
 {
@@ -10,28 +17,29 @@ int main()
     printf("3. Multiplication\n");
     printf("4. Division\n");
     scanf("%d", &choice);
-    switch(choice){
-        case 1:
-            printf("The addition of %d & %d is %d\n", a, b, a + b);
-            break;
-        case 2:
-            printf("The subtarction of %d & %d is %d\n", a, b, a - b);
-            break;
-        case 3:
-            printf("The multiplication of %d & %d is %d\n", a, b, a * b);
-            break;
-        case 4:
-            if (b == 0)
-            {
-                printf("Division by zero is Not Defined!\n");
-            }
-            else
-            {
-                printf("The division of %d & %d is %d\n", a, b, a / b);
-            }
-            break;
-        default:
-            printf("Invalid Input\n");
+    switch (choice)
+    {
+    case 1:
+        printf("The addition of %d & %d is %d\n", a, b, a + b);
+        break;
+    case 2:
+        printf("The subtarction of %d & %d is %d\n", a, b, a - b);
+        break;
+    case 3:
+        printf("The multiplication of %d & %d is %d\n", a, b, a * b);
+        break;
+    case 4:
+        if (b == 0)
+        {
+            printf("Division by zero is Not Defined!\n");
+        }
+        else
+        {
+            printf("The division of %d & %d is %d\n", a, b, a / b);
+        }
+        break;
+    default:
+        printf("Invalid Input\n");
     }
     return 0;
 }

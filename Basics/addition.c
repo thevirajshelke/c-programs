@@ -1,3 +1,11 @@
+/**************************************************
+ * File: c-programs/Basics/addition.c
+ * Name: Viraj Shelke <virajshelkepro@gmail.com>
+ * Date: 2020-17-02
+ * Desc: This is just a basic program which adds
+         two numbers and displays them on the screen.
+***************************************************/
+
 #include <stdio.h>
 /*
 int main(){

@@ -1,3 +1,10 @@
+/**************************************************
+ * File: c-programs/Calculator/calc_1.c
+ * Name: Viraj Shelke <virajshelkepro@gmail.com>
+ * Date: 2020-17-02
+ * Desc: Calculator program with else if ladder.
+***************************************************/
+
 #include <stdio.h>
 int main()
 {
